@@ -1,0 +1,80 @@
+/*Mapeo de fuentes para font awesome*/
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    src: url("font_awesome/webfonts/fa-brands-400.eot");
+    src: url("font_awesome/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("font_awesome/webfonts/fa-brands-400.woff2") format("woff2"), url("font_awesome/webfonts/fa-brands-400.woff") format("woff"), url("font_awesome/webfonts/fa-brands-400.ttf") format("truetype"), url("font_awesome/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    src: url("font_awesome/webfonts/fa-regular-400.eot");
+    src: url("font_awesome/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("font_awesome/webfonts/fa-regular-400.woff2") format("woff2"), url("font_awesome/webfonts/fa-regular-400.woff") format("woff"), url("font_awesome/webfonts/fa-regular-400.ttf") format("truetype"), url("font_awesome/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+.far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    src: url("font_awesome/webfonts/fa-solid-900.eot");
+    src: url("font_awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("font_awesome/webfonts/fa-solid-900.woff2") format("woff2"), url("font_awesome/webfonts/fa-solid-900.woff") format("woff"), url("font_awesome/webfonts/fa-solid-900.ttf") format("truetype"), url("font_awesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+.fa,
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.imgen-panel-candidato {
+    width: 190px;
+    height: auto;
+}
+
+.pdf_contenedor {
+    background-color: rgb(223, 253, 227);
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 500px;/*Altura de la tabla en dda y rf*/
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+.fuente_peque{
+    font-size: .5rem;
+}
+
+.animado {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.mostrar_arriba {
+    animation: mostrar_arriba ls;
+}
+
+@keyframes mostrar_arriba {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
